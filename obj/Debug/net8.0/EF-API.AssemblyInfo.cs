@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EF-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7d7090aaf8a2aa4079e1abc030bb3f4993b244a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EF-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EF-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
