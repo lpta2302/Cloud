@@ -5,8 +5,6 @@ using Microsoft.EntityFrameworkCore;
 public class Student
 {
     [Key]
-    public int Id { get; set; }
-    [Required]
     [StringLength(20)]
     public string Mssv { get; set; }
     public int TPoint { get; set; }
@@ -18,7 +16,7 @@ public class Student
     public string ClassId { get; set; }
     [StringLength(100)]
     public string Major { get; set; }
-    public Student(string mssv = "", int tPoint = -1, string name = "", string batch = "", string classId = "", string major = "")
+    public Student(string mssv = "", string name = "", string batch = "", string classId = "", string major = "", int tPoint = 0)
     {
         Mssv = mssv;
         TPoint = tPoint;

@@ -8,11 +8,9 @@ public class Answer
     public int Id { get; set; }
     [StringLength(2000)]
     public string Content { get; set; }
-    [Required]
-    public virtual Question Question{get;set;}
-    public Answer(string content = "")
-    {
+    public bool IsKeyAnswer { get; set; } = false;
+    public Answer(string content="",bool isKeyAnswer = false){
         Content = content;
-        Question = new Question();
+        IsKeyAnswer = isKeyAnswer;
     }
 }

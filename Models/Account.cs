@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 [Table("Account")]
 public class Account
 {
@@ -9,17 +10,29 @@ public class Account
     [Required]
     [StringLength(20)]
     public string Username { get; set; }
+    public string? StudentId { get; set; }
+    public Student? Student { get; set; }
     [Required]
     [StringLength(20)]
     public string Password { get; set; }
     [Required]
     [StringLength(100)]
     public string Name { get; set; }
-
-    public Account(string username = "", string password ="", string name = "")
+    public string AccType { get; set; }
+    public Account(string username, string password, string name, string accType)
     {
         Username = username;
         Password = password;
         Name = name;
+        AccType = accType;
+        Student = null;
+    }
+    public Account(string username, string password, string name, string accType,string? studentId)
+    {
+        Username = studentId;
+        Password = password;
+        Name = name;
+        AccType = Constants.STUDENT_ACC;
+        StudentId = studentId;
     }
 }

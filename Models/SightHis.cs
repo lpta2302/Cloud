@@ -6,10 +6,10 @@ public class SightHis
 {
     [Key]
     public int Id { get; set; }
-    [Required]
-    public virtual Sight  Sight { get; set; }
-    [Required]
-    public virtual Student  Student { get; set; }
+    public int SightId{get;set;}
+    public Sight  Sight { get; set; }
+    public string StudentId{get;set;}
+    public Student  Student { get; set; }
     [Required]
     public int Point { get; set; }
     [Required]
@@ -19,11 +19,10 @@ public class SightHis
         Sight = new Sight();
         Student = new Student();
     }
-
-    public SightHis(Sight sight, Student student, int point)
+    public SightHis(string mssv, int sightId, int point)
     {
-        Sight = sight;
-        Student = student;
+        StudentId = mssv;
+        SightId = sightId;
         Point = point;
         CreatedAt = DateTime.Now;
     }

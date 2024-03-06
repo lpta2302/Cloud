@@ -7,20 +7,18 @@ public class TPointHis
     [Key]
     public int Id { get; set; }
     [Required]
-    public virtual Student Student { get; set; }
+    public string StudentId { get; set; }
+    public Student Student { get; set; }
     [Required]
     public int Point { get; set; }
     [StringLength(2000)]
     public string? Content { get; set; }
     [Required]
     public DateTime CreatedAt { get; set; }
-    public TPointHis()
+
+    public TPointHis(string studentId, int point, string? content)
     {
-        Student = new Student();
-    }
-    public TPointHis(Student student, int point, string? content)
-    {
-        Student = student;
+        StudentId = studentId;
         Point = point;
         Content = content;
         CreatedAt = DateTime.Now;

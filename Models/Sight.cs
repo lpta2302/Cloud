@@ -12,14 +12,14 @@ public class Sight
     public string? Preview { get; set; }
     [Column(TypeName = "Date")]
     public DateTime CreatedAt { get; set; }
-    public virtual List<Question> Questions { get; set; }
+    public List<Question>? Questions { get; set; }
     public Sight()
     {
-        Name = ""; 
-        Preview = ""; 
-        Questions = new List<Question>();
+        Name = "";
+        Preview = "";
     }
-    public Sight(string name, string? preview, List<Question> questions)
+
+    public Sight(string name = "", string? preview = "", List<Question>? questions = null)
     {
         Name = name;
         Preview = preview;

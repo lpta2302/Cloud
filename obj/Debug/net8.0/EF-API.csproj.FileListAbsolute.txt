@@ -5,6 +5,7 @@
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/EF-API.pdb
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Azure.Core.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Azure.Identity.dll
+/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Castle.Core.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Humanizer.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
@@ -15,6 +16,7 @@
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Proxies.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
@@ -51,6 +53,7 @@
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.Composition.TypedParts.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.Data.SqlClient.dll
+/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.Drawing.Common.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.IO.Pipelines.dll
@@ -123,6 +126,8 @@
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
@@ -133,14 +138,10 @@
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.AssemblyInfoInputs.cache
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.AssemblyInfo.cs
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.csproj.CoreCompileInputs.cache
+/Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.sourcelink.json
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.csproj.Up2Date
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/refint/EF-API.dll
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.pdb
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/EF-API.genruntimeconfig.cache
 /Users/thienan/workspace/DA/EF-API/EF-API/obj/Debug/net8.0/ref/EF-API.dll
-/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Castle.Core.dll
-/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Proxies.dll
-/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
-/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
-/Users/thienan/workspace/DA/EF-API/EF-API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
